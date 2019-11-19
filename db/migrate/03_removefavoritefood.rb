@@ -1,4 +1,4 @@
-class RemoveFavoriteFoodToArtists < ActiveRecord::Migration[5.2]
+class Removefavoritefood < ActiveRecord::Migration[5.2]
   def change
     remove_column :artists, :favorite_food
   end
